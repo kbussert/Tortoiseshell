@@ -1,3 +1,159 @@
 html{
-  color: blue;
+  font-size: 18px;
+  line-height: 1.4;
 }
+
+.jumbotron {
+  width: 100%;
+  height: 31rem;
+  background-image: url("/Users/kb186036/WebProjects/TortoiseShell/resources/images/glasses-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 1rem;
+}
+
+.banner {
+  background-color: cadetblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 1rem;
+  font-family: Helvetica;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.branding {
+  padding: 1rem 2rem;
+  display: flex;
+  color: white;
+  align-items: center;
+}
+
+.branding img {
+  margin-right: 1rem;
+}
+
+.nav ul {
+  display: inline-flex;
+  color: white;
+  font-weight: bold;
+  padding: 1rem 2rem;
+}
+
+.nav ul li {
+  margin-left: 2rem;
+}
+
+.biz-slogan {
+  margin-top: 10rem;
+  line-height: 1.2;
+}
+
+.biz-slogan p {
+  float: right;
+  display: inline-block;
+  color: black;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 2rem;
+  background-color: white;
+  padding: 1.5rem 5rem;
+  margin-right: -2rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+.workflow {
+  display: flex;
+  justify-content: center;
+  height: 8rem;
+  margin-bottom: 3rem;
+}
+
+.workflow-card {
+  width: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#ruler {
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+#exam-sheet {
+  margin-top: 0;
+  width: 3.5rem;
+  height: auto;
+}
+
+.workflow-card img {
+  width: 5rem;
+  height: auto;
+  margin: auto 0;
+}
+
+.workflow-card p {
+  text-align: center;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.detail-card {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+#philosophy {
+  margin-right: 5%;
+}
+
+.detail-card-heading {
+  width: 10rem;
+  background-color: cadetblue;
+  color: white;
+  padding-left: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.detail-card-heading p {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.footer {
+  background-color: azure;
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+.footer img {
+  /*display: inline-block;*/
+  margin-right: 1rem;
+}
+
+/*.footer p {
+  display: inline-block;
+}*/
