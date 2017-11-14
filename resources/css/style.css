@@ -18,7 +18,6 @@ html{
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   font-size: 1rem;
   font-family: Helvetica;
 }
@@ -48,6 +47,10 @@ html{
 
 .nav ul li {
   margin-left: 2rem;
+}
+
+#menu {
+  display: none;
 }
 
 .biz-slogan {
@@ -150,10 +153,129 @@ html{
 }
 
 .footer img {
-  /*display: inline-block;*/
   margin-right: 1rem;
 }
 
-/*.footer p {
-  display: inline-block;
-}*/
+@media only screen and (max-width: 1120px) {
+
+  .jumbotron {
+    height: 22rem;
+    padding-top: 0;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .biz-slogan {
+    margin-top: 5rem;
+  }
+
+  .biz-slogan p {
+    font-size: 1.33rem;
+    padding: 0.75rem 4rem;
+    margin-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+
+  .jumbotron {
+    height: 17rem;
+    padding-top: 0;
+    background-position: 20%;
+    margin-bottom: 0;
+    border: solid 1px red;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .banner {
+    height: 3rem;
+  }
+
+  .banner img {
+    height: 1.75rem;
+  }
+
+  .branding p {
+    display: none;
+  }
+
+  .nav ul li {
+    display: none;
+  }
+
+  #menu {
+    display: block;
+  }
+
+  .biz-slogan {
+    margin-top: 9rem;
+  }
+
+  .biz-slogan p {
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem 0;
+    margin: 0;
+  }
+
+  .main {
+    margin: 0;
+  }
+
+  .workflow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3.77rem;
+    margin-bottom: 3.77rem;
+    height: auto;
+    padding: 0;
+  }
+
+  #ruler {
+    margin: 1.54rem 0;
+  }
+
+  .details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .detail-card {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+
+  .detail-card-heading {
+    width: 100%;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0;
+  }
+
+  .descriptive {
+    margin-left: 0.5rem;
+    font-size: 0.77rem;
+  }
+
+  .footer {
+    width: auto;
+    justify-content: center;
+  }
+
+  .footer p {
+    display: none;
+  }
+
+  .footer img {
+    margin: 0;
+  }
+
+}
